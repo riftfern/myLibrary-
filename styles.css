@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orelega+One&family=Overlock:ital@1&family=Poppins:wght@300&family=Titillium+Web&display=swap');
+
+*{
+    box-sizing: border-box; 
+    font-family: 'Titillium Web', sans-serif;
+}
+/* body*/
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    border-style: ridge;
+    border-color: blue;
+    justify-content: center;
+}
+.hOne{
+    
+}
+/* main body */
+
+.mainBody{
+    display: flex;
+    justify-content: center;
+    border-style: ridge;
+    border-color: blue;
+}
+#bookBtn{
+    
+    align-self: flex-start;
+    padding:4px;
+    margin: 8px;
+
+}
+/* form */
+#addBookForm{
+    display:none;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .9);
+    height: 75%;
+    width: 50%;
+    border-radius: 25px;
+    border-style: outset;
+    justify-content: center;
+    opacity: .9;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    padding: 4px;
+    margin:2px;
+}
+form li + li + li + li{
+    margin-top:1em;
+    padding: 4px;
+}
+label{
+    display: inline-block;
+    text-align: center;
+}
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    border-style: ridge;
+    border-color: blue;
+}
